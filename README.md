@@ -100,7 +100,7 @@ co(function * () {
 Signature
 ---------
 
-`.ascss(src, dest, options) -> Promise`
+`ascss(src, dest, options) -> Promise`
 
 ### Params
 
