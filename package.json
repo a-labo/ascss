@@ -1,6 +1,6 @@
 {
   "name": "ascss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Compile SCSS files",
   "main": "lib",
   "browser": false,
