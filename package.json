@@ -1,8 +1,9 @@
 {
   "name": "ascss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compile SCSS files",
   "main": "lib",
+  "browser": false,
   "scripts": {
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js"
