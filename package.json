@@ -30,16 +30,15 @@
     "execcli": "^4.0.8"
   },
   "devDependencies": {
-    "ape-covering": "*",
+    "amocha": "^1.0.14",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
-    "ape-releasing": "*",
-    "ape-reporting": "*",
-    "ape-tasking": "*",
-    "ape-testing": "*",
-    "ape-tmpl": "*",
-    "ape-updating": "*",
-    "coz": "*",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.8",
+    "ape-tmpl": "^5.0.15",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.17",
     "injectmock": "^2.0.0"
   },
   "engines": {
