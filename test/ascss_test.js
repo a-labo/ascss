@@ -7,6 +7,7 @@
 const ascss = require('../lib/ascss.js')
 const assert = require('assert')
 const co = require('co')
+const fs = require('fs')
 
 describe('ascss', function () {
   this.timeout(8000)
@@ -20,11 +21,14 @@ describe('ascss', function () {
   }))
 
   it('Ascss', () => co(function * () {
+    let src = `${__dirname}/../misc/mocks/mock-main.scss`
+    let dest = `${__dirname}/../tmp/foo/testing-css/testing-compiled.css`
     yield ascss(
-      `${__dirname}/../misc/mocks/mock-main.scss`,
-      `${__dirname}/../tmp/foo/testing-css/testing-compiled.css`,
+      src,
+      dest,
       {}
     )
+    // assert.ok(fs.statSync(dest))
   }))
 })
 

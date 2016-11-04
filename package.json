@@ -1,6 +1,6 @@
 {
   "name": "ascss",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Compile SCSS files",
   "main": "lib",
   "browser": false,
@@ -28,7 +28,8 @@
     "akv-status": "^1.0.5",
     "asfs": "^1.0.5",
     "co": "^4.6.0",
-    "execcli": "^4.0.8"
+    "node-sass": "^3.11.1",
+    "writeout": "^2.1.0"
   },
   "devDependencies": {
     "amocha": "^1.0.14",
