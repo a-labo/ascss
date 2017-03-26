@@ -1,12 +1,12 @@
 {
   "name": "ascss",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Compile SCSS files",
   "main": "lib",
   "browser": false,
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "prepare": "./ci/build.js"
   },
   "repository": "a-labo/ascss",
   "keywords": [
@@ -23,28 +23,28 @@
   },
   "homepage": "https://github.com/a-labo/ascss#readme",
   "dependencies": {
-    "aglob": "^1.0.3",
+    "aglob": "^2.0.1",
     "akv": "^1.0.21",
     "akv-status": "^1.0.5",
-    "asfs": "^1.0.5",
+    "asfs": "^1.2.3",
     "co": "^4.6.0",
-    "node-sass": "^3.11.1",
+    "node-sass": "^4.5.1",
     "writeout": "^2.1.0"
   },
   "devDependencies": {
-    "amocha": "^1.0.14",
+    "amocha": "^2.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
-    "ape-updating": "^4.0.5",
+    "ape-updating": "^4.1.0",
     "coz": "^6.0.17",
     "injectmock": "^2.0.0"
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
+    "npm": ">=4"
   }
 }
